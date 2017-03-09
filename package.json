@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gitbook build ./notes",
-    "open": "npm run build && open notes/_book/index.html",
+    "open": "npm run build && open notes/_book/index.html"
   },
   "repository": {
     "type": "git",
