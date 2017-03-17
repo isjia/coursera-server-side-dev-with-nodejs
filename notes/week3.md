@@ -1,10 +1,12 @@
-# Halt! Who goes there?
+# Week 3: Halt! Who goes there?
+
+[Coursear Page](https://www.coursera.org/learn/server-side-development/home/week/3)
 
 ## REST API with Express, MongoDB and Mongoose
 
 ### Objectives and Outcomes
 
-- develop a full-fledged REST API server with Express, MongoDB and Mongoose
+- Develop a full-fledged REST API server with Express, MongoDB and Mongoose
 - Implement the end-to-end solution integrating Express, Node and Mongo
 
 ### REST API with Express, MongoDB and Mongoose
@@ -198,7 +200,3 @@ npm start
 - [User Authentication With Passport and Express 4](http://mherman.org/blog/2015/01/31/local-authentication-with-passport-and-express-4/#.VteGlYx96Aw)
 - [Authenticate a Node.js API with JSON Web Tokens](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
 - [Using JSON Web Tokens with Node.js](http://www.sitepoint.com/using-json-web-tokens-node-js/)
-
-
-
-

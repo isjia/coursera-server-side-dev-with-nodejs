@@ -1,4 +1,6 @@
 var shell = require('shelljs');
+var exec = require('gulp-exec');
+// var exec = require('child_process').exec;
 
 var gulp = require('gulp');
 var ghPages = require('gulp-gh-pages');
@@ -7,9 +9,14 @@ var browserSync = require('browser-sync').create();
 gulp.task('build-gitbook', function(){
   if(shell.exec('npm run build').code != 0){
     echo('Error: generate gitbook failed');
-    exit(1);
+    return exit(1);
   }
 });
+
+gulp.task('build', function(){
+  return gulp.src('./notes/')
+             .pipe(exec('gitbook build <%= file.path %>'));
+})
 
 gulp.task('deploy-to-gh-pages', function(){
   return gulp.src('./notes/_book/**/*')
@@ -18,12 +25,12 @@ gulp.task('deploy-to-gh-pages', function(){
 
 // create a task that ensures the `html` task is complete before
 // reloading browsers
-gulp.task('html-watch', ['build-gitbook'], function (done) {
+gulp.task('html-watch', ['build'], function (done) {
     browserSync.reload();
     done();
 });
 
-gulp.task('serve', ['build-gitbook'], function(){
+gulp.task('serve', ['build'], function(){
   browserSync.init({
     server: {
       baseDir: './notes/_book'
