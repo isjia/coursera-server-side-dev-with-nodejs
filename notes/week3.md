@@ -13,6 +13,8 @@
 
 > w3-01-rest-api-with-express-mongodb-and-mongoose.mp4
 
+<a href="w3-1-REST-Express-Mongo-Mongoose.pdf" target="_blank">Lecture Notes</a>
+
 ### Exercise (Video): REST API with Express, MongoDB and Mongoose
 
 > w3-02-exercise-video-rest-api-with-express-mongodb-and-mongoose.mp4
