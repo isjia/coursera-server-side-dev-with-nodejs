@@ -13,7 +13,6 @@
 
 > w3-01-rest-api-with-express-mongodb-and-mongoose.mp4
 
-<a href="w3-1-REST-Express-Mongo-Mongoose.pdf" target="_blank">Lecture Notes</a>
 
 ### Exercise (Video): REST API with Express, MongoDB and Mongoose
 
@@ -25,11 +24,12 @@
 
 **PDFs of Presentations**
 
-- 1-REST-Express-Mongo-Mongoose.pdf
+<a href="w3-1-REST-Express-Mongo-Mongoose.pdf" target="_blank">1-REST-Express-Mongo-Mongoose.pdf</a>
+
 
 **Exercise Resources**
 
-- db.json
+<a href="db.json" target="_blank">db.json</a>
 
 **Other Resources**
 
@@ -46,6 +46,17 @@
 
 ### Basic Authentication
 
+Sever send: 
+
+- 401 Unauthorized
+- Www-Authenticate: Basic
+
+Client send:
+
+- Authorization Header: username & password encoded with Base64
+- Authorization: Basic xxxxx (encoded)
+- Host: www.xxxx.com
+
 > w3-03-basic-authentication.mp4
 
 ### Exercise (Video): Basic Authentication
@@ -60,7 +71,9 @@
 
 **PDFs of Presentations**
 
-- 2-Basic-Authentication.pdf
+<a href="w3-2-Basic-Authentication.pdf" target="_blank">
+  2-Basic-Authentication.pdf
+</a>
 
 **Other Resources**
 
