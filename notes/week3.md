@@ -24,12 +24,12 @@
 
 **PDFs of Presentations**
 
-<a href="w3-1-REST-Express-Mongo-Mongoose.pdf" target="_blank">1-REST-Express-Mongo-Mongoose.pdf</a>
+<a href="./assets/w3-1-REST-Express-Mongo-Mongoose.pdf" target="_blank">1-REST-Express-Mongo-Mongoose.pdf</a>
 
 
 **Exercise Resources**
 
-<a href="db.json" target="_blank">db.json</a>
+<a href="./assets/db.json" target="_blank">db.json</a>
 
 **Other Resources**
 
@@ -71,7 +71,7 @@ Client send:
 
 **PDFs of Presentations**
 
-<a href="w3-2-Basic-Authentication.pdf" target="_blank">
+<a href="./assets/w3-2-Basic-Authentication.pdf" target="_blank">
   2-Basic-Authentication.pdf
 </a>
 
