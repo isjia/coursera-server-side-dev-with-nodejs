@@ -46,7 +46,7 @@
 
 ### Basic Authentication
 
-Sever send: 
+Sever send:
 
 - 401 Unauthorized
 - Www-Authenticate: Basic
@@ -140,9 +140,22 @@ node server-session.js
 
 ### Token Based Authentication
 
+Header + Payload + Signature
+
+- `npm install jsonwebtoken --save`
+- `sign()` signing and issuing token
+- `verify()` verifying and decoding token
+
 > w3-08-token-based-authentication.mp4
 
 ### Passport
+
+- middleware for node.js
+- OpenID
+- oauth single sign-on
+- `npm install passport --save`
+- `npm install passport-local --sava`
+- Passport-Local-Mongoose
 
 > w3-09-passport.mp4
 
