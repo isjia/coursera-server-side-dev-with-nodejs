@@ -238,7 +238,7 @@
 <li>Used basic authentication support to authenticate users</li>
 </ul>
 <h3 id="basic-authentication">Basic Authentication</h3>
-<p>Sever send: </p>
+<p>Sever send:</p>
 <ul>
 <li>401 Unauthorized</li>
 <li>Www-Authenticate: Basic</li>
@@ -316,10 +316,24 @@ node server-session.js
 <li>Set up token-based authentication with Passport, json web token and Express</li>
 </ul>
 <h3 id="token-based-authentication">Token Based Authentication</h3>
+<p>Header + Payload + Signature</p>
+<ul>
+<li><code>npm install jsonwebtoken --save</code></li>
+<li><code>sign()</code> signing and issuing token</li>
+<li><code>verify()</code> verifying and decoding token</li>
+</ul>
 <blockquote>
 <p>w3-08-token-based-authentication.mp4</p>
 </blockquote>
 <h3 id="passport">Passport</h3>
+<ul>
+<li>middleware for node.js</li>
+<li>OpenID</li>
+<li>oauth single sign-on</li>
+<li><code>npm install passport --save</code></li>
+<li><code>npm install passport-local --sava</code></li>
+<li>Passport-Local-Mongoose</li>
+</ul>
 <blockquote>
 <p>w3-09-passport.mp4</p>
 </blockquote>
@@ -426,7 +440,7 @@ npm start
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"3. Halt! Who goes there?","level":"1.2.3","depth":2,"previous":{"title":"2. Data, Data, Where art Thou Data?","level":"1.2.2","depth":2,"path":"week2.md","ref":"week2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"week3.md","mtime":"2017-03-27T14:13:33.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-27T15:57:45.931Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3. Halt! Who goes there?","level":"1.2.3","depth":2,"previous":{"title":"2. Data, Data, Where art Thou Data?","level":"1.2.2","depth":2,"path":"week2.md","ref":"week2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"week3.md","mtime":"2017-03-28T06:48:14.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-28T06:49:21.429Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
