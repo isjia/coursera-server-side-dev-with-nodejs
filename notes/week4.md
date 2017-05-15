@@ -53,7 +53,7 @@ In this exercise you learnt about cross-referencing Mongo documents using the Ob
 
 **PDFs of Presentations**
 
-- [1-Mongoose-Population.pdf](./assets/Mongoose-Population.pdf)
+- [1-Mongoose-Population.pdf](/assets/w4-1-Mongoose-Population.pdf)
 
 **Mongoose Resources**
 

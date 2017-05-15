@@ -18,6 +18,12 @@ gulp.task('build', function(){
              .pipe(exec('gitbook build <%= file.path %>'));
 })
 
+gulp.task('copy-assets', function () {
+     return gulp
+             .src('notes/assets/*')
+             .pipe(gulp.dest('notes/_book/assets/'));
+});
+
 gulp.task('deploy-to-gh-pages', function(){
   return gulp.src('./notes/_book/**/*')
     .pipe(ghPages());
@@ -25,12 +31,12 @@ gulp.task('deploy-to-gh-pages', function(){
 
 // create a task that ensures the `html` task is complete before
 // reloading browsers
-gulp.task('html-watch', ['build'], function (done) {
+gulp.task('html-watch', ['build', 'copy-assets'], function (done) {
     browserSync.reload();
     done();
 });
 
-gulp.task('serve', ['build'], function(){
+gulp.task('serve', ['build', 'copy-assets'], function(){
   browserSync.init({
     server: {
       baseDir: './notes/_book'
