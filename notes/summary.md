@@ -4,3 +4,4 @@
   * [1. Introduction to Server-side Development](week1.md)
   * [2. Data, Data, Where art Thou Data?](week2.md)
   * [3. Halt! Who goes there?](week3.md)
+  * [4. Backend as a Service (BaaS)](week4.md)
